@@ -1,0 +1,180 @@
+main{
+	background:grey;
+	width:536px;
+	height:260px
+	border: 1px solid black;
+	margin: 0 auto;
+	border: 3px solid black;
+	padding: 0 auto;
+}
+header{
+	text-align:center;
+}
+
+article{
+	float:left;
+	margin:0 auto;
+	text-align: center;
+}
+.flightnum{
+	background:#33bbff;
+	font-weight:bold;
+	width:70px;
+	height:40px;
+	border-bottom:1px solid black;
+	border-right:1px solid black;
+	text-align: left;
+}
+.from{
+	background:#33bbff;
+	font-weight:bold;
+	width:150px;
+	height:40px;
+	border-bottom:1px solid black;
+	border-right:1px solid black;
+}
+
+.to{
+	background:#33bbff;
+	font-weight:bold;
+	width:150px;
+	height:40px;
+	border-bottom:1px solid black;
+	border-right:1px solid black;
+	text-align: center;
+}
+.departure{
+	background:#33bbff;
+	font-weight:bold;
+	width:80px;
+	height:40px;
+	border-bottom:1px solid black;
+	border-right:1px solid black;
+	text-align: left;
+}
+.arrival{
+	background:#33bbff;
+	font-weight:bold;
+	width:81px;
+	height:40px;
+	border-bottom:1px solid black;
+	border-right: 1px solid black;
+	text-align: center;
+}
+.num1{
+	background:#0077b3;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	width:70px;
+	height:40px;
+	font-weight:bold;
+}
+.heathrow{
+	background:#808080;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	width:150px;
+	height:40px;
+}
+.nuremberg{
+	background:#808080;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	width:150px;
+	height:40px;
+}
+.time1{
+	background:#808080;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	width:80px;
+	height:40px;
+}
+.time2{
+	background:#808080;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	width:81px;
+	height:40px;
+	float:right;
+}
+.num2{
+	background:#0077b3;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	width:70px;
+	height:40px;
+	font-weight:bold;
+}
+.luton{
+	background:#bfbfbf;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	width:150px;
+	height:40px;
+}
+.alicante{
+	background:#bfbfbf;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	width:150px;
+	height:40px;
+}
+.time3{
+	background:#bfbfbf;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	width:80px;
+	height:40px;
+
+}
+.time4{
+	background:#bfbfbf;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	width:81px;
+	height:40px;
+}
+.num3{
+	background:#0077b3;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	width:70px;
+	height:40px;
+	font-weight:bold;
+}
+.berlin{
+	background:#808080;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	width:150px;
+	height:40px;
+}
+.hamburg{
+	background:#808080;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	width:150px;
+	height:40px;
+}
+.time5{
+	background:#808080;
+	border-bottom: 1px solid black;
+	border-right:1px solid black;
+	width:80px;
+	height:40px;
+	float:left;
+}
+.time6{
+	background:#808080;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	width:81px;
+	height:40px;
+}
+footer{
+	background:#0040ff;
+	font-weight:bold;
+	padding:8px;
+	text-align:right;
+}
