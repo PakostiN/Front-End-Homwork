@@ -1,0 +1,114 @@
+/*start of reset*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*end of reset*/
+/*main styles*/
+main{
+	width: 1000px;
+	border: 1px solid black;
+	margin: 0 auto;
+	padding: 10px;
+}
+.clearfix::after{
+	content:"";
+	display:block;
+	clear:both;
+}	
+header{
+	    background-color: #e6e6e6;
+	    border: 1px solid blue;
+	    margin:0 auto;
+
+}
+section{
+	margin-top: 25px;
+	padding: 8px;
+	border:1px solid blue;
+	background-color: #ff6600;
+	height: 300px;
+}
+article{
+	float:left;
+	width: 30%;
+	margin-top: 25px;
+	padding: 8px 10px;
+	float: right;
+	width: 31%;
+}
+
+h1 {
+    font-size: 30px;
+    padding:6px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.h31{
+	font-size:20px;
+	padding:10px 70px;
+	font-weight: bold;
+	
+}
+.h32{
+	font-size:20px;
+	padding:10px 70px;
+	font-weight: bold;
+	
+}
+.h33{
+	font-size:20px;
+	padding:10px 70px;
+	font-weight: bold;	
+}
+footer{
+	margin-top:25px;
+}
+.text{
+	color: blue;
+}
+
+
+
+
+
