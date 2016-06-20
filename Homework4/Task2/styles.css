@@ -1,0 +1,82 @@
+/*start of reset*/
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*end of reset*/
+/*main styles*/
+main{
+	position:relative;
+	width: 1500px;
+	height: 270px;
+	border:1px solid black;
+	box-shadow: 0 0 20px black;
+	margin:0 auto;
+}
+.text1{
+	position: absolute;
+	top:20px;
+	left:20px;
+	background: orange;
+	width: 500px;
+	height: 200px;
+	box-shadow: 5px 5px 30px grey;
+	margin:left;
+}
+.text-shadow1{
+		font-family: "Comic Sans MS", cursive, sans-serif;
+		font-size:50px;
+		text-shadow: 1px 7px 8px white;
+		padding-left: 30px;
+		padding-top: 10px;
+}
+.text2{
+	position: absolute;
+	top:20px;
+	left: 600px;
+	background:#33cc33;
+	width:500px;
+	height:200px;
+	box-shadow: 0 0 20px #111;
+}
+.text-shadow2{
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size:50px;
+	text-shadow: 4px 0px 20px yellow;
+	padding-left:30px;
+	padding-top:10px;
+}
+.text3{
+	position:absolute;
+	top:20px;
+	left: 1200px;
+}

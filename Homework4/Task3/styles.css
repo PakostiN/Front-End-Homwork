@@ -1,0 +1,68 @@
+/*start of reset*/
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*end of reset*/
+/*main styles*/
+main{
+	background: #1a53ff;
+	width:1800px;
+	height:250px;
+	border:1px solid black;
+	margin-top:280px;
+	margin-left:28px;
+	padding:0 20px;
+	box-shadow: 0 0 20px black;
+}
+h1{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size:50px;
+	color:red;
+	text-shadow: -4px -5px 10px #c6ff1a;
+	text-align:center;
+}
+
+.columns {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	text-align:center;
+	text-shadow: -1px -1px 2px #c6ff1a;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 200px
+    -moz-column-gap: 160px;
+    column-gap: 160px;
+    -webkit-column-rule: 5px solid #c6ff1a;
+	-moz-column-rule: 5px solid #c6ff1a;
+    column-rule: 5px solid #c6ff1a;
+}

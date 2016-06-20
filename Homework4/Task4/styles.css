@@ -1,0 +1,77 @@
+/*start of reset*/
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*end of reset
+main styles*/
+main{
+	border:1.3px solid black;
+	border-radius: 20px 130px 40px 120px;
+	box-shadow: 30px 10px 50px black;
+	margin:0 auto;
+	width:400px;
+	height: 653px;
+	background: #ffcc00;
+}
+p{
+	color:white;
+}
+
+.transform {
+	font-family: "comic sans ms";
+	font-size:17px;
+	font-color: #ffffff;
+	font-weight: bold;
+	width: 300px;
+	height: 300px;
+	-ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    background: black;
+    margin-left: 20px;
+    box-shadow: 10px -15px 50px black;
+}
+.transform1 {
+	font-family: "comic sans ms";
+	font-size:17px;
+	font-color: #ffffff;
+	font-weight: bold;
+	width:300px;
+	height:300px;
+	background: #0099ff;
+	-ms-transform: skew(15deg);
+    -webkit-transform: skew(15deg);
+    transform: skew(15deg);
+    margin-left: 47px;
+    box-shadow: 20px 15px 50px black;
+}

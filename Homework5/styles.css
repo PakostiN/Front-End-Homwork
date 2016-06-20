@@ -1,0 +1,73 @@
+main {
+  background: #f2f2f2;
+  width: 1200px;
+  height: 850px;
+  margin: 0 auto; }
+
+header h1 {
+  font-family: "comic sans ms";
+  font-size: 35px;
+  font-weight: bold;
+  color: #0077b3;
+  text-align: center; }
+header button {
+  margin-left: 550px;
+  width: 100px;
+  height: 20px;
+  font-family: "arial";
+  font-color: white;
+  background: #0077b3;
+  border-radius: 7px; }
+header h2 {
+  font-family: "comic sans ms";
+  font-size: 25px;
+  font-weight: bold;
+  color: #0077b3;
+  text-align: center; }
+
+section {
+  margin: 0 auto;
+  width: 90%;
+  height: 78%;
+  border: 1px solid #005580; }
+  section table {
+    height: 100%;
+    background: #1a8cff; }
+    section table img {
+      padding-left: 20px;
+      width: 100px;
+      height: 150px; }
+    section table th {
+      background: #1a8cff;
+      font-family: "arial";
+      font-size: 15px;
+      color: white;
+      height: 20px;
+      border-bottom: 1px solid #005580; }
+    section table .image {
+      width: 150px; }
+    section table .name {
+      width: 150px;
+      text-align: center; }
+    section table .type {
+      width: 140px;
+      text-align: center; }
+    section table td {
+      font-family: "arial";
+      font-size: 13px;
+      text-align: center; }
+    section table .film1 {
+      background-color: #80d4ff;
+      color: #0077b3;
+      border-bottom: 1px solid #005580; }
+    section table .film2 {
+      background-color: #1a8cff;
+      color: white;
+      border-bottom: 1px solid #005580; }
+    section table .film3 {
+      background-color: #80d4ff;
+      color: #0077b3;
+      border-bottom: 1px solid #005580;
+      border-bottom: none; }
+
+/*# sourceMappingURL=styles.css.map */
