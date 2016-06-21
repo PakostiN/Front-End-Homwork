@@ -1,0 +1,124 @@
+/*start of reset*/
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*end of reset*/
+/*main styles*/
+h1{
+	width:97.3%;
+	background:#bfbfbf;
+	font-size:25px;
+	color:black;
+	border-top:1px solid black;
+	border-left:1px solid black;
+	border-right:1px solid black;
+	margin:0 auto;
+	padding:10px;
+
+}
+section{
+	margin:0 auto;
+	width:45%;
+	height:500px;
+}
+table{
+	width:100%;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	border-right:1px solid black;
+}
+th{
+	background:#66b3ff;
+}
+p{
+	text-align:right;
+	text-shadow:1.2px 1.3px 1.4px #b3ff66;
+	font-weight:bold;
+	font-size:18px;
+	border:2px solid #00e600;
+	border-radius:5px;
+	margin-left:635px;
+	margin-top: 0px;
+	color: black;
+	background: #006699;
+	padding:3px;
+}
+.flight{
+	width:10%;
+	padding:9px;
+	text-align:left;
+}
+.from{
+	/*width:33%;*/
+	text-align:left;
+	padding-left:8px;
+}
+.to{
+	/*width:33%;*/
+	text-align:left;
+	padding-left:8px;
+}
+.departure{
+	width:10%;
+	text-align:left;
+	padding-left:8px;
+}
+.arrival{
+	width:10%;
+	text-align:left;
+	padding-left:8px;
+}
+.ba{
+	background:#0088cc;
+	text-align:center;
+	font-weight:bold;
+}
+.td1{
+	padding:8px;
+	background:#808080;
+}
+.td2{
+	padding:8px;
+	background:#cccccc;
+}
+.total{
+	margin:0 auto;
+	background:#006699;
+	border-left:1px solid black;
+	border-right:1px solid black;
+	border-bottom:1px solid black;
+	text-align:right;
+	font-size:20px;
+	font-weight:bold;
+	padding:5px;
+}
