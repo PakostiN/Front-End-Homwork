@@ -52,6 +52,10 @@ main{
 	margin:0 auto;
 	padding: 10px 10px
 }
+div{
+	margin-top:50px;
+	margin-left:30px;
+}
 .box1{
 	border:2px solid black;
 	background:#ff8000;
