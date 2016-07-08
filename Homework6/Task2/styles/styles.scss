@@ -1,0 +1,203 @@
+/*start of reset*/
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*end of reset*/
+/*main styles*/
+$border: 1px solid #c4c4c4;
+/* *{
+	box-sizing: border-box;
+} */
+body{
+	main{
+				background-image: url("img/background.png");
+				width: 760px;
+				height: 484px;
+				margin:0 auto;
+		section{
+				margin:0 auto;
+				
+				h1{
+					font-family: "Myriad Pro";
+					font-size:36px;
+					color:#717d7d;
+					text-align: center;
+					padding-top: 20px;
+				}
+				h2{
+					margin-top: -20px;
+					font-family: "myriad pro";
+					font-size: 28px;
+					color: #4b787c;
+					text-align: center;
+					
+				}
+					.box1{
+						margin-left: 15px;
+					}
+					.box2{
+						margin-left: 30px;
+					}
+					.box3{
+						margin-left: 30px;
+					}
+			article{
+				margin-top: -20px;
+				width:	220px;
+				height: 360px;
+				border-radius: 5px;
+				border: $border;
+				float:left;
+				background-color:white;
+				line-height:40px;
+				div{
+					padding-top:22px;
+				}
+				h3{
+					font-size: 18px;
+					font-family: "arial";
+					text-align:center;
+					border-bottom: $border;
+					margin:0 auto;
+				}
+				img{
+					margin-left:16px;
+					padding-right:13px;
+				}
+				.credits1{
+					background-color: #f6f3d7;
+					color: #7d7846;
+				}
+				.credits2{
+					background-color: #e0efd0;
+					color: #495938;
+				}
+				.credits3{
+					background-color: #d2e3f0;
+					color: #365d78;
+				}
+				.text{
+					font-family: "arial";
+					font-size: 13px;
+					color: #484848;
+					margin:0 auto;
+					display:block;
+					border-bottom:$border;
+				}
+				.graybacktext{
+					font-family: "arial";
+					font-size: 13px;
+					color: #484848;
+					margin:0 auto;
+					display:block;
+					border-bottom:$border;
+					background-color:#f8f8f8;
+				}
+
+				.bigprice1{
+					display:inline-block;
+					line-height:0;
+					font-size:36px;
+					color: #5f5b2e;
+					font-weight:bold;
+					padding-left:60px;
+				}
+
+				.bigprice2{
+					display:inline-block;
+					line-height:0;
+					font-size:36px;
+					color: #425231;
+					font-weight:bold;
+					padding-left:60px;
+				}
+				.bigprice3{
+					display:inline-block;
+					line-height:0;
+					font-size:36px;
+					color: #2c4e65;
+					font-weight:bold;
+					padding-left:60px;
+				}
+				.withtax1{
+					color: #5f5b2e;
+					font-size: 13px;
+					display: inline-block;
+				}
+				.withtax2{
+					color: #435332;
+					font-size: 13px;
+					display: inline-block;
+				}
+				.withtax3{
+					color: #2c4e65;
+					font-size: 13px;
+					display: inline-block;
+				}
+				.textcredits{
+					color:#787878;
+					font-size:14px;
+					text-align: center;
+					margin-top: -20px;
+				}
+				.order{
+					outline:none;
+					border-radius:3px;
+					width:170px; 
+					height:30px;
+					border:none;
+					color:white;
+					font-size:17px;
+					margin-left:25px;
+				}
+				.order:hover{
+					box-shadow: #838383 5px 5px 20px;
+				}
+				.order:active{
+					font-size:16px;
+					padding-left:1px;
+					padding-bottom:1.5px;
+				}
+				.brown{
+					background-color:#a8a161;
+				}
+				.green{
+					background-color:#749e47;
+				}
+				.blue{
+					background-color:#4f7ea3;
+				}
+			}
+		}
+	}	
+}
