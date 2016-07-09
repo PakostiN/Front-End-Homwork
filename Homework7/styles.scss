@@ -1,0 +1,119 @@
+/*start of reset*/
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	/* display: block; */
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*end of reset*/
+/*main styles*/
+*{
+	box-sizing: border-box;
+}
+body{
+	width:100%;
+	margin:0 auto;
+	h1{
+		font-size:26px;
+	}
+	
+		header{
+			height: 87px;
+			background-color: #555555;
+			.headertitle{
+				color:white;
+				font-weight:bold;
+				padding-left:36px;
+				padding-top:30px;		
+			}			
+		}
+		nav{
+			background-color:#000000;
+			height: 51px;
+			
+			a{
+				display:inline-block;
+				margin:0 auto;
+				font-size:18px;
+				color:white;		
+				text-decoration: none;
+			}
+			.navtext{
+				padding-left:20px;
+			}			
+		}
+		section{
+			display:inline-block;
+			padding-left:36px;
+			padding-bottom:80px;
+			width:100%;
+		article{
+
+			float:left;
+		}
+			h2{
+				font-size: 20px;
+			}
+			.col1{
+				width:40%;
+				h1{
+					padding-bottom: 18px;
+					border-bottom:1px solid #dddddd;
+				}
+				p{
+					padding-bottom:28px;
+					border-bottom:1px solid #dddddd;
+				}
+			}
+			.col2{
+				float:left;
+				width:23%;
+				margin-left: 58px;
+
+			}
+			.col3{
+				float:left;
+				width:23%;
+				margin-left: 58px;
+			}
+			.graybox{
+					width:800px;
+					height:350px;
+					background-color:#cccccc;
+				}
+		}
+		footer{
+			background-color:black;
+			color:white;
+			padding:20px;
+		}
+	
+}
