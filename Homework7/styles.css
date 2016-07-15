@@ -80,16 +80,22 @@ body {
         border-bottom: 1px solid #dddddd; }
     body section .col2 {
       float: left;
-      width: 23%;
+      width: 25%;
       margin-left: 58px; }
     body section .col3 {
       float: left;
-      width: 23%;
+      width: 25%;
       margin-left: 58px; }
     body section .graybox {
       width: 800px;
       height: 350px;
       background-color: #cccccc; }
+      body section .graybox p {
+        text-align: center;
+        padding-top: 75px;
+        font-weight: bold;
+        color: grey;
+        font-size: 60px; }
   body footer {
     background-color: black;
     color: white;

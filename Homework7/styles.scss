@@ -95,19 +95,26 @@ body{
 			}
 			.col2{
 				float:left;
-				width:23%;
+				width:25%;
 				margin-left: 58px;
 
 			}
 			.col3{
 				float:left;
-				width:23%;
+				width:25%;
 				margin-left: 58px;
 			}
 			.graybox{
 					width:800px;
 					height:350px;
 					background-color:#cccccc;
+					p{
+						text-align:center;
+						padding-top:75px;
+						font-weight:bold;
+						color:grey;
+						font-size:60px;
+					}
 				}
 		}
 		footer{

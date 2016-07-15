@@ -1,0 +1,33 @@
+body{
+	width:100%;
+}
+div{
+	width:50%;
+	margin:0 auto;
+}
+
+button{
+	padding:10px;
+	border:none;
+	border-radius:10px;
+	background-color:#00e600;
+	color:white;
+	font-family:"comic sans ms";
+	font-size:18px;
+	outline:none;
+}
+input{
+	font-family:"comic sans ms";
+	padding:5px;
+	font-size:15px;
+	font-weight:bold;
+	border:2px solid black;
+}
+p{
+	font-family: "comic sans ms";
+	font-weight:bold;
+
+}
+#text{
+	font-size:15px;
+}
