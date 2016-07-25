@@ -40,60 +40,64 @@ table {
 }
 
 body{
-
+	font-family: 'Gloria Hallelujah', cursive;
 	margin:0 auto;
 	padding:0;
-	display:block;
 	h1{
-		font-size:26px;
+		font-size:30px;
 		margin:0;
-	}
-	
+	}	
 		header{
-			height: 87px;
-			background-color: #555555;
+			line-height: 100px;
+			background-color: #8cff1a;
+			text-align:center;
 			.headertitle{
-				color:white;
 				font-weight:bold;
-				padding-left:36px;
-				padding-top:30px;
-				a{
+				padding-left:30px;
+				a{	
+					height:80px;
+					font-size:30px;
 					text-decoration:none;
-					color:white;
-				}
-				h1:hover{
-				font-size:45px;
-				padding-top:10px;
+					color:black;
+					text-shadow: 2px 3px 4px black;
 				}
 				a:hover{
+					font-size:33px;
+					text-shadow: 4px 4px 4px black;
 					color:red;
+					font-weight:bold;
 				}		
 			}			
+		}
+		header:hover{
+			background-color: yellow;
 		}
 		nav{
 			background-color:#000000;
 			height: 51px;	
 			a{
+				text-align:center;
 				font-size:18px;
 				color:white;		
 				text-decoration: none;
-				padding-right:10px;
+				margin:0;
+				padding:0;
 				float:left;
 				height:51px;
 			}
 			a:hover{
-				background-color:#8cff1a;
-				color:black;
+				color:#ff6600;
+				text-shadow:1px 2px 3px black;
+				background:yellow;
 				font-weight:bold;
 			}
 			.navtext{
 				padding-left:20px;
 				padding-right:20px;
-
 			}			
 		}
 		section{
-
+			background-color:#ffffb3;
 			display:inline-block;
 			padding-left:36px;
 			padding-bottom:80px;
@@ -110,13 +114,10 @@ body{
 				font-size:16px;
 				color:orange;
 				.graybox{
-					background-color:red;
+					background-color:#33cc00;
 				}
 
-				h1{
-					color:red;
-				}
-				h2{
+				h1,h2{
 					color:red;
 				}
 			}
@@ -147,7 +148,7 @@ body{
 				.graybox{
 						width:100%;
 						height:350px;
-						background-color:#cccccc;
+						background-color:#0066ff;
 						border:none;
 						border-radius:20px;
 						p{
@@ -161,20 +162,15 @@ body{
 					}
 				.graybox:hover{
 					background-color:red;
-					p{
-						font-size:58px;
-					}
-				}	
-		}
-		section:hover{
-			background-color:#ffffe6;
+					font-size:60px;
+				}
 		}
 		footer{
 			background-color:black;
+			font-size:18px;
 			color:white;
 			padding:20px;
 		}
-	
 }
 @media screen and (max-width: 800px){
 *{
@@ -182,99 +178,82 @@ body{
 	width:100%;
 	text-align:center;
 }
-
-body{
-	font-family:"comic sans ms";
-	width:100%;
-	main{
-
-		header{
-			a{
-				margin-right:30px;
+	body{
+		width:100%;
+		main{
+			header{
+				text-align:center;
+				a{
+					margin-right:30px;
+				}
 			}
-			h1:hover{
-				font-size:45px;
-				padding-top:10px;
-			}
-			a:hover{
-				color:red;
-			}
-		}
-		header:hover{
-			background-color: orange;
-		}
-		nav{
-			height:100%;
-			background:#000000;
-			a{
+			nav{
+				height:100%;
 				background:#000000;
-				padding:8px;	
-				border-bottom: 1px solid grey;
+				a{
+					background:#000000;
+					padding:15px;	
+					border-bottom: 2px solid grey;
+				}
 			}
-			a:hover{
-				background-color:#8cff1a;
-				color:black;
-			}
-		}
-		section{
-			display:inline-block;
-			width:100%;
-			padding-left:0;
-			margin-top:0;
-			article{
-				padding:10px;
-				p{	
-					margin-top:20px;
+			section{
+				display:inline-block;
+				width:100%;
+				padding-left:0;
+				margin-top:0;
+				article{
+					padding:30px;
+					p{	
+						margin-top:20px;
+						width:100%;
+						text-align:center;
+						font-size:17px;
+					}
+				}
+				article:hover{
+					background-color:#ffff4d;
+					font-weight:italic;
+					font-size:16px;
+					.graybox{
+						background-color:red;
+					}
+					p{
+						color:orange;
+					}
+					h1,h2{
+						color:red;
+					}
+				}
+				.col1{
 					width:100%;
-					text-align:center;
-					font-size:17px;
+					margin-left:0;
 				}
-			}
-			article:hover{
-				background-color:#ffff4d;
-				font-weight:italic;
-				font-size:16px;
+				.col2{
+					width:100%;
+					margin-top:10px;
+					margin-left:0;
+				}
+				.col3{
+					width:100%;
+					margin-top:10px;
+					margin-left:0;
+				}
 				.graybox{
-					background-color:red;
+					margin-top:10px;
+					p{	
+						padding-top: 100px;
+						padding-bottom:100px;
+						color: #8cff1a;
+					}
 				}
-				p{
-					color:orange;
-				}
-				h1{
-					color:red;
-				}
-				h2{
-					color:red;
-				}
-			}
-			.col1{
-				width:100%;
-				margin-left:0;
-			}
-			.col2{
-				width:100%;
-				margin-top:10px;
-				margin-left:0;
-			}
-			.col3{
-				width:100%;
-				margin-top:10px;
-				margin-left:0;
-			}
-			.graybox{
-				margin-top:10px;
-				p{
-					padding-top: 100px;
-					color: #8cff1a;
-				}
-			}
-			.graybox:hover{
-				background-color:red;
-				p{
-					font-size:57px;
-				}
+				.graybox:hover{
+					p:hover{
+						font-size:57px;
+						text-shadow: -3px 7px 10px black;
+						color: #ff6600;
+					}
+				}	
 			}
 		}
 	}
-}
 }
