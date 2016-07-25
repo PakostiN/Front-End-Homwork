@@ -38,10 +38,12 @@ table {
   box-sizing: border-box; }
 
 body {
-  width: 100%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 0;
+  display: block; }
   body h1 {
-    font-size: 26px; }
+    font-size: 26px;
+    margin: 0; }
   body header {
     height: 87px;
     background-color: #555555; }
@@ -50,24 +52,52 @@ body {
       font-weight: bold;
       padding-left: 36px;
       padding-top: 30px; }
+      body header .headertitle a {
+        text-decoration: none;
+        color: white; }
+      body header .headertitle h1:hover {
+        font-size: 45px;
+        padding-top: 10px; }
+      body header .headertitle a:hover {
+        color: red; }
   body nav {
     background-color: #000000;
     height: 51px; }
     body nav a {
-      display: inline-block;
-      margin: 0 auto;
       font-size: 18px;
       color: white;
-      text-decoration: none; }
+      text-decoration: none;
+      padding-right: 10px;
+      float: left;
+      height: 51px; }
+    body nav a:hover {
+      background-color: #8cff1a;
+      color: black;
+      font-weight: bold; }
     body nav .navtext {
-      padding-left: 20px; }
+      padding-left: 20px;
+      padding-right: 20px; }
   body section {
     display: inline-block;
     padding-left: 36px;
     padding-bottom: 80px;
     width: 100%; }
     body section article {
-      float: left; }
+      border-radius: 10%;
+      margin-top: 0;
+      float: left;
+      text-align: center;
+      margin-top: 20px; }
+    body section article:hover {
+      background-color: #ffff4d;
+      font-size: 16px;
+      color: orange; }
+      body section article:hover .graybox {
+        background-color: red; }
+      body section article:hover h1 {
+        color: red; }
+      body section article:hover h2 {
+        color: red; }
     body section h2 {
       font-size: 20px; }
     body section .col1 {
@@ -87,18 +117,100 @@ body {
       width: 25%;
       margin-left: 58px; }
     body section .graybox {
-      width: 800px;
+      width: 100%;
       height: 350px;
-      background-color: #cccccc; }
+      background-color: #cccccc;
+      border: none;
+      border-radius: 20px; }
       body section .graybox p {
         text-align: center;
         padding-top: 75px;
         font-weight: bold;
-        color: grey;
-        font-size: 60px; }
+        color: #8cff1a;
+        font-size: 60px;
+        border: none; }
+    body section .graybox:hover {
+      background-color: red; }
+      body section .graybox:hover p {
+        font-size: 58px; }
+  body section:hover {
+    background-color: #ffffe6; }
   body footer {
     background-color: black;
     color: white;
     padding: 20px; }
+
+@media screen and (max-width: 800px) {
+  * {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center; }
+
+  body {
+    font-family: "comic sans ms";
+    width: 100%; }
+    body main header a {
+      margin-right: 30px; }
+    body main header h1:hover {
+      font-size: 45px;
+      padding-top: 10px; }
+    body main header a:hover {
+      color: red; }
+    body main header:hover {
+      background-color: orange; }
+    body main nav {
+      height: 100%;
+      background: #000000; }
+      body main nav a {
+        background: #000000;
+        padding: 8px;
+        border-bottom: 1px solid grey; }
+      body main nav a:hover {
+        background-color: #8cff1a;
+        color: black; }
+    body main section {
+      display: inline-block;
+      width: 100%;
+      padding-left: 0;
+      margin-top: 0; }
+      body main section article {
+        padding: 10px; }
+        body main section article p {
+          margin-top: 20px;
+          width: 100%;
+          text-align: center;
+          font-size: 17px; }
+      body main section article:hover {
+        background-color: #ffff4d;
+        font-weight: italic;
+        font-size: 16px; }
+        body main section article:hover .graybox {
+          background-color: red; }
+        body main section article:hover p {
+          color: orange; }
+        body main section article:hover h1 {
+          color: red; }
+        body main section article:hover h2 {
+          color: red; }
+      body main section .col1 {
+        width: 100%;
+        margin-left: 0; }
+      body main section .col2 {
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 0; }
+      body main section .col3 {
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 0; }
+      body main section .graybox {
+        margin-top: 10px; }
+        body main section .graybox p {
+          padding-top: 100px;
+          color: #8cff1a; }
+      body main section .graybox:hover {
+        background-color: red; }
+        body main section .graybox:hover p {
+          font-size: 57px; } }
 
 /*# sourceMappingURL=styles.css.map */

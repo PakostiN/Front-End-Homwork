@@ -38,11 +38,15 @@ table {
 *{
 	box-sizing: border-box;
 }
+
 body{
-	width:100%;
+
 	margin:0 auto;
+	padding:0;
+	display:block;
 	h1{
 		font-size:26px;
+		margin:0;
 	}
 	
 		header{
@@ -52,70 +56,118 @@ body{
 				color:white;
 				font-weight:bold;
 				padding-left:36px;
-				padding-top:30px;		
+				padding-top:30px;
+				a{
+					text-decoration:none;
+					color:white;
+				}
+				h1:hover{
+				font-size:45px;
+				padding-top:10px;
+				}
+				a:hover{
+					color:red;
+				}		
 			}			
 		}
 		nav{
 			background-color:#000000;
-			height: 51px;
-			
+			height: 51px;	
 			a{
-				display:inline-block;
-				margin:0 auto;
 				font-size:18px;
 				color:white;		
 				text-decoration: none;
+				padding-right:10px;
+				float:left;
+				height:51px;
+			}
+			a:hover{
+				background-color:#8cff1a;
+				color:black;
+				font-weight:bold;
 			}
 			.navtext{
 				padding-left:20px;
+				padding-right:20px;
+
 			}			
 		}
 		section{
+
 			display:inline-block;
 			padding-left:36px;
 			padding-bottom:80px;
 			width:100%;
-		article{
-
-			float:left;
-		}
-			h2{
-				font-size: 20px;
+			article{
+				border-radius:10%;
+				margin-top:0;
+				float: left;
+				text-align:center;
+				margin-top:20px;
 			}
-			.col1{
-				width:40%;
+			article:hover{
+				background-color:#ffff4d;
+				font-size:16px;
+				color:orange;
+				.graybox{
+					background-color:red;
+				}
+
 				h1{
-					padding-bottom: 18px;
-					border-bottom:1px solid #dddddd;
+					color:red;
 				}
-				p{
-					padding-bottom:28px;
-					border-bottom:1px solid #dddddd;
+				h2{
+					color:red;
 				}
 			}
-			.col2{
-				float:left;
-				width:25%;
-				margin-left: 58px;
-
-			}
-			.col3{
-				float:left;
-				width:25%;
-				margin-left: 58px;
-			}
-			.graybox{
-					width:800px;
-					height:350px;
-					background-color:#cccccc;
+				h2{
+					font-size: 20px;
+				}
+				.col1{
+					width:40%;
+					h1{
+						padding-bottom: 18px;
+						border-bottom:1px solid #dddddd;
+					}
 					p{
-						text-align:center;
-						padding-top:75px;
-						font-weight:bold;
-						color:grey;
-						font-size:60px;
+						padding-bottom:28px;
+						border-bottom:1px solid #dddddd;
 					}
 				}
+				.col2{
+					float:left;
+					width:25%;
+					margin-left: 58px;
+				}
+				.col3{
+					float:left;
+					width:25%;
+					margin-left: 58px;
+				}
+				.graybox{
+						width:100%;
+						height:350px;
+						background-color:#cccccc;
+						border:none;
+						border-radius:20px;
+						p{
+							text-align:center;
+							padding-top:75px;
+							font-weight:bold;
+							color: #8cff1a;
+							font-size:60px;
+							border:none;
+						}
+					}
+				.graybox:hover{
+					background-color:red;
+					p{
+						font-size:58px;
+					}
+				}	
+		}
+		section:hover{
+			background-color:#ffffe6;
 		}
 		footer{
 			background-color:black;
@@ -123,4 +175,106 @@ body{
 			padding:20px;
 		}
 	
+}
+@media screen and (max-width: 800px){
+*{
+	margin:0 auto;
+	width:100%;
+	text-align:center;
+}
+
+body{
+	font-family:"comic sans ms";
+	width:100%;
+	main{
+
+		header{
+			a{
+				margin-right:30px;
+			}
+			h1:hover{
+				font-size:45px;
+				padding-top:10px;
+			}
+			a:hover{
+				color:red;
+			}
+		}
+		header:hover{
+			background-color: orange;
+		}
+		nav{
+			height:100%;
+			background:#000000;
+			a{
+				background:#000000;
+				padding:8px;	
+				border-bottom: 1px solid grey;
+			}
+			a:hover{
+				background-color:#8cff1a;
+				color:black;
+			}
+		}
+		section{
+			display:inline-block;
+			width:100%;
+			padding-left:0;
+			margin-top:0;
+			article{
+				padding:10px;
+				p{	
+					margin-top:20px;
+					width:100%;
+					text-align:center;
+					font-size:17px;
+				}
+			}
+			article:hover{
+				background-color:#ffff4d;
+				font-weight:italic;
+				font-size:16px;
+				.graybox{
+					background-color:red;
+				}
+				p{
+					color:orange;
+				}
+				h1{
+					color:red;
+				}
+				h2{
+					color:red;
+				}
+			}
+			.col1{
+				width:100%;
+				margin-left:0;
+			}
+			.col2{
+				width:100%;
+				margin-top:10px;
+				margin-left:0;
+			}
+			.col3{
+				width:100%;
+				margin-top:10px;
+				margin-left:0;
+			}
+			.graybox{
+				margin-top:10px;
+				p{
+					padding-top: 100px;
+					color: #8cff1a;
+				}
+			}
+			.graybox:hover{
+				background-color:red;
+				p{
+					font-size:57px;
+				}
+			}
+		}
+	}
+}
 }
