@@ -230,7 +230,7 @@ body{
 		}
 		footer{
 			color:#8cff1a;
-			text-align:right;
+			text-align:center;
 			background-color:black;
 			font-size:21px;
 			padding:20px;
@@ -260,28 +260,25 @@ body{
 			}
 			nav{
 				margin:0 auto;
-				padding-top:3px;
-				padding-bottom:3px;
 				height:180px;
 				a{	
 					font-size:20px;
-					line-height:23px;
 					margin:0 auto;
 					text-align:center;	
 					height:58px;
 					width:100%;
 				}
 				a:hover{
+					border-radius:10%;
 					font-weight:normal;
 					font-size:25px;
 					padding-right: 5px;
 					text-align:center;
 					position:relative;
 					margin:0 auto;
-					width:98%;
+					width:60%;
 					color:#ff6600;
 					text-shadow:2px 1px 4px black;
-					border-radius:47%;
 					background:yellow;
 					-webkit-animation: navAnime 0.3s infinite;
 					animation: navAnime 0.3s infinite;
